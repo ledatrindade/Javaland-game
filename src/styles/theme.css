@@ -375,7 +375,37 @@
 }
 
 .phase-content {
+  max-width: 880px;
   margin-top: 24px;
+}
+
+.phase-content h2 {
+  margin-bottom: 16px;
+}
+
+/*
+  Parágrafos usados nas explicações e comentários dos exemplos.
+
+  Eles são gerados pela função TextWithParagraphs,
+  que transforma textos com "\n\n" em vários <p>.
+*/
+.story-paragraph {
+  margin: 0 0 16px;
+  color: #f8eedc;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.story-paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+/*
+  Dá mais espaço entre o texto narrativo e o botão,
+  evitando que a explicação fique apertada.
+*/
+.phase-content > .btn {
+  margin-top: 22px;
 }
 
 .code-block {
@@ -975,6 +1005,11 @@
   .toolbox-hint-icon {
     width: 44px;
     height: 44px;
+  }
+
+  .story-paragraph {
+    font-size: 0.95rem;
+    line-height: 1.65;
   }
 
   .sound-settings {

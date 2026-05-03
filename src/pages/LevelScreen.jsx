@@ -13,6 +13,9 @@
 
   Textos fixos da interface vêm de uiText.js.
   Textos de conteúdo do nível vêm de levels.pt.json ou levels.en.json.
+
+  A função TextWithParagraphs transforma textos com "\n\n"
+  em parágrafos reais, deixando as explicações mais legíveis.
 */
 
 import { useState } from 'react';
@@ -38,6 +41,31 @@ function hasAnswer(value) {
   }
 
   return String(value).trim() !== '';
+}
+
+function TextWithParagraphs({ text }) {
+  /*
+    Transforma textos longos em parágrafos reais.
+
+    O JSON deve usar "\n\n" para separar os blocos.
+    Exemplo:
+    "Primeiro parágrafo.\n\nSegundo parágrafo."
+
+    Isso evita que a explicação apareça como um bloco único e corrido.
+  */
+  if (!text) {
+    return null;
+  }
+
+  return String(text)
+    .split('\n\n')
+    .map((paragraph) => paragraph.trim())
+    .filter(Boolean)
+    .map((paragraph, index) => (
+      <p key={index} className="story-paragraph">
+        {paragraph}
+      </p>
+    ));
 }
 
 function LevelScreen({
@@ -67,6 +95,10 @@ function LevelScreen({
   }
 
   function handleChangeAnswer(value) {
+    /*
+      Enquanto o jogo está validando a resposta,
+      impedimos alterações para evitar bugs de clique duplo.
+    */
     if (isChecking) {
       return;
     }
@@ -100,6 +132,9 @@ function LevelScreen({
       return;
     }
 
+    /*
+      Avança para a próxima etapa e limpa a resposta anterior.
+    */
     setCurrentStepIndex((prev) => prev + 1);
     setSelectedAnswer('');
     setNotice(null);
@@ -199,7 +234,7 @@ function LevelScreen({
           <div className="phase-content">
             <h2>{t.level.explanation}</h2>
 
-            <p>{level.explanation}</p>
+            <TextWithParagraphs text={level.explanation} />
 
             <Button onClick={goToExample}>
               {t.level.seeExample}
@@ -213,7 +248,7 @@ function LevelScreen({
 
             <CodeBlock code={level.example.code} />
 
-            <p>{level.example.comment}</p>
+            <TextWithParagraphs text={level.example.comment} />
 
             <Button onClick={goToChallenge}>
               {t.level.goToChallenge}
