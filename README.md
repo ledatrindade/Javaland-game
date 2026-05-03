@@ -11,7 +11,6 @@ A cada nível concluído, o jogador desbloqueia uma nova recompensa visual para 
 
 **Stack:** React • Vite • JavaScript • CSS • localStorage
 
----
 
 ## 🎯 Objetivo do projeto
 
@@ -42,7 +41,6 @@ O jogador aprende conceitos como:
 - pacotes;
 - boas práticas.
 
----
 
 ## 📖 História do jogo
 
@@ -61,7 +59,6 @@ Na vila, existem personagens simbólicos que representam conceitos da programaç
 
 A cada desafio concluído, a casa do jogador ganha uma nova parte.
 
----
 
 ## ✨ Funcionalidades principais
 
@@ -84,7 +81,6 @@ A cada desafio concluído, a casa do jogador ganha uma nova parte.
 - Suporte a idioma português e inglês.
 - Salvamento local com `localStorage`.
 
----
 
 ## 🛠️ Tecnologias utilizadas
 
@@ -95,7 +91,6 @@ A cada desafio concluído, a casa do jogador ganha uma nova parte.
 - HTML
 - localStorage
 
----
 
 ## 🚀 Como rodar o projeto localmente
 
@@ -131,7 +126,6 @@ O Vite normalmente exibirá um endereço parecido com:
 http://localhost:5173
 ```
 
----
 
 ## 📦 Scripts disponíveis
 
@@ -160,7 +154,6 @@ Permite visualizar localmente a versão gerada pelo build.
 
 Executa a verificação de padrões do código com ESLint.
 
----
 
 ## 🗂️ Estrutura principal do projeto
 
@@ -220,7 +213,6 @@ src/
 └── main.jsx
 ```
 
----
 
 ## 🧩 Organização dos níveis
 
@@ -248,7 +240,6 @@ src/
 | 19 | Boas práticas em Java | 🪴 Mesinha lateral |
 | 20 | Revisão final de Javaland | 🚪 Armário |
 
----
 
 ## 🎮 Sistema de desafios
 
@@ -272,7 +263,6 @@ write-code
 true-false
 ```
 
----
 
 ## ✅ Validação das respostas
 
@@ -295,7 +285,6 @@ Para desafios de escrita de código, a validação tenta ser mais flexível, nor
 
 Isso evita que o jogador erre apenas por formatação diferente.
 
----
 
 ## 💾 Sistema de progresso
 
@@ -327,7 +316,6 @@ Isso significa que:
 - não existe banco de dados no MVP;
 - se o usuário limpar os dados do navegador, o progresso é perdido.
 
----
 
 ## 🌎 Sistema de idioma
 
@@ -370,7 +358,6 @@ O idioma selecionado é salvo no `localStorage` pela chave:
 javaland-language
 ```
 
----
 
 ## 🔊 Sistema de áudio
 
@@ -414,7 +401,6 @@ src/assets/sounds/
     └── lofi-theme.mp3
 ```
 
----
 
 ## 🎨 Assets visuais
 
@@ -465,7 +451,6 @@ dog
 cat
 ```
 
----
 
 ## ☁️ Deploy
 
@@ -491,7 +476,6 @@ Se o build funcionar sem erro, o projeto está pronto para publicar.
 
 Para este MVP, Vercel é uma boa opção por ser simples, rápida e integrada ao GitHub.
 
----
 
 ## ⚠️ Limitações do MVP
 
@@ -507,7 +491,6 @@ Este projeto ainda não possui:
 
 A validação atual compara respostas esperadas, o que é suficiente para um MVP educativo inicial.
 
----
 
 ## 🔮 Melhorias futuras
 
@@ -528,7 +511,6 @@ Algumas ideias para evolução:
 - Adicionar mais personagens da vila.
 - Adicionar narração ou falas dos personagens.
 
----
 
 ## 🧼 Boas práticas usadas no projeto
 
@@ -542,7 +524,6 @@ Algumas ideias para evolução:
 - Assets organizados por função.
 - Componentes reutilizáveis.
 
----
 
 ## 📌 Status do projeto
 
@@ -560,13 +541,11 @@ A proposta principal já está implementada:
 
 As próximas etapas devem focar em refinamento, testes, deploy e coleta de feedback dos usuários.
 
----
 
 ## 👩‍💻 Autora
 
 Projeto desenvolvido por **Leda Trindade** como um MVP educativo para ensino de Java de forma lúdica, visual e progressiva.
 
----
 
 ## 📄 Licença
 
@@ -574,7 +553,6 @@ Este projeto é de uso educacional e autoral.
 
 Antes de publicar, verifique as licenças de todos os assets externos utilizados, principalmente sons, músicas e imagens. Dê preferência a materiais com licença CC0, domínio público ou uso livre permitido.
 
----
 
 # 🏡 Javaland — Java Educational Game
 
@@ -588,28 +566,6 @@ The project turns programming learning into a journey: the player moves to **Jav
 After completing each level, the player unlocks a new visual reward for the house, such as a fence, gate, flowers, sofa, TV, bathroom, kitchen, bedroom, and pet.
 
 **Stack:** React • Vite • JavaScript • CSS • localStorage
-
----
-
-## 📚 Table of Contents
-
-- [Project goal](#project-goal)
-- [Game story](#game-story)
-- [Main features](#main-features)
-- [Technologies used](#technologies-used)
-- [How to run locally](#how-to-run-locally)
-- [Project structure](#project-structure)
-- [Level organization](#level-organization)
-- [Challenge system](#challenge-system)
-- [Progress system](#progress-system)
-- [Language system](#language-system)
-- [Audio system](#audio-system)
-- [Visual assets](#visual-assets)
-- [Deployment](#deployment)
-- [Future improvements](#future-improvements)
-- [Author](#author)
-
----
 
 ## 🎯 Project goal
 
@@ -640,7 +596,6 @@ The player learns concepts such as:
 - packages;
 - good practices.
 
----
 
 ## 📖 Game story
 
@@ -659,7 +614,6 @@ The village includes symbolic characters that represent programming concepts, su
 
 Each completed challenge adds a new part to the player’s house.
 
----
 
 ## ✨ Main features
 
@@ -682,7 +636,6 @@ Each completed challenge adds a new part to the player’s house.
 - Portuguese and English language support.
 - Local saving with `localStorage`.
 
----
 
 ## 🛠️ Technologies used
 
@@ -693,7 +646,6 @@ Each completed challenge adds a new part to the player’s house.
 - HTML
 - localStorage
 
----
 
 ## 🚀 How to run locally
 
@@ -729,7 +681,6 @@ Vite usually displays an address similar to:
 http://localhost:5173
 ```
 
----
 
 ## 📦 Available scripts
 
@@ -758,7 +709,6 @@ Allows you to preview the production build locally.
 
 Runs ESLint checks.
 
----
 
 ## 🗂️ Project structure
 
@@ -818,7 +768,6 @@ src/
 └── main.jsx
 ```
 
----
 
 ## 🧩 Level organization
 
@@ -846,7 +795,6 @@ src/
 | 19 | Good practices in Java | 🪴 Side table |
 | 20 | Final Javaland review | 🚪 Wardrobe |
 
----
 
 ## 🎮 Challenge system
 
@@ -870,7 +818,6 @@ write-code
 true-false
 ```
 
----
 
 ## ✅ Answer validation
 
@@ -893,7 +840,6 @@ For code-writing challenges, validation tries to be more flexible by normalizing
 
 This avoids marking an answer wrong only because the formatting is slightly different.
 
----
 
 ## 💾 Progress system
 
@@ -925,7 +871,6 @@ This means:
 - there is no database in the MVP;
 - if the user clears browser data, progress is lost.
 
----
 
 ## 🌎 Language system
 
@@ -968,7 +913,6 @@ The selected language is saved in `localStorage` under the key:
 javaland-language
 ```
 
----
 
 ## 🔊 Audio system
 
@@ -1012,7 +956,6 @@ src/assets/sounds/
     └── lofi-theme.mp3
 ```
 
----
 
 ## 🎨 Visual assets
 
@@ -1041,7 +984,6 @@ dog
 cat
 ```
 
----
 
 ## ☁️ Deployment
 
@@ -1067,7 +1009,6 @@ If the build completes without errors, the project is ready to publish.
 
 For this MVP, Vercel is a good option because it is simple, fast, and integrated with GitHub.
 
----
 
 ## ⚠️ MVP limitations
 
@@ -1083,7 +1024,6 @@ This project does not yet include:
 
 The current validation compares expected answers, which is enough for an initial educational MVP.
 
----
 
 ## 🔮 Future improvements
 
@@ -1102,7 +1042,6 @@ The current validation compares expected answers, which is enough for an initial
 - Add more village characters.
 - Add narration or character dialogue.
 
----
 
 ## 🧼 Good practices used in the project
 
@@ -1116,7 +1055,6 @@ The current validation compares expected answers, which is enough for an initial
 - Assets organized by purpose.
 - Reusable components.
 
----
 
 ## 📌 Project status
 
@@ -1134,13 +1072,11 @@ The main proposal is already implemented:
 
 The next steps should focus on refinement, testing, deployment, and user feedback.
 
----
 
 ## 👩‍💻 Author
 
 Project developed by **Leda Trindade** as an educational MVP for teaching Java in a playful, visual, and progressive way.
 
----
 
 ## 📄 License
 
