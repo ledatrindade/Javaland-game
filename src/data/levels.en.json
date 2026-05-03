@@ -1,0 +1,1436 @@
+[
+  {
+    "id": 0,
+    "title": "Javaland Tutorial",
+    "reward": "toolbox",
+    "environment": "outside",
+    "summary": "Learn how challenges work and unlock your toolbox.",
+    "explanation": "Welcome to Javaland! You have just arrived in an old, technological village full of stories. The streets have glowing command signs, the gates only open when they receive correct instructions, and the villagers love gossiping about who writes good code and who keeps upsetting the syntax. At the entrance, Miss Syntax, a neighbor famous for correcting everyone, warns you: “Here in Javaland, whoever understands logic can build anything!” Before building your house, you need to learn how the challenges work. Each level has an explanation, an example, and a few steps. When you complete them, you unlock a reward for your construction. In this tutorial, you will learn the basic rules of the village and earn your first tool.",
+    "example": {
+      "title": "How does a challenge work?",
+      "code": "Example:\n\nQuestion:\nWhich language will be studied in Javaland?\n\nOptions:\nA) Python\nB) Java\nC) HTML\n\nExpected answer:\nJava",
+      "comment": "Read the question carefully, analyze the options, and choose the correct answer. In some challenges, you may also complete words, commands, or write small pieces of code."
+    },
+    "steps": [
+      {
+        "id": "0.1",
+        "type": "multiple-choice",
+        "question": "What is the main goal of Javaland?",
+        "options": [
+          "Learn video editing",
+          "Learn Java by building a house",
+          "Create random drawings",
+          "Build an online store"
+        ],
+        "answer": "Learn Java by building a house",
+        "hint": "Think about the main story: you move to Javaland and build your house while learning Java."
+      },
+      {
+        "id": "0.2",
+        "type": "multiple-choice",
+        "question": "What happens when you complete all steps of a level?",
+        "options": [
+          "You lose your progress",
+          "The game closes by itself",
+          "You unlock a visual reward",
+          "You go back to the beginning without saving"
+        ],
+        "answer": "You unlock a visual reward",
+        "hint": "Each completed level unlocks an item for the house construction."
+      },
+      {
+        "id": "0.3",
+        "type": "complete-code",
+        "question": "Complete the name of the language studied in the game: Ja__",
+        "answer": "va",
+        "hint": "The complete word is Java."
+      },
+      {
+        "id": "0.4",
+        "type": "multiple-choice",
+        "question": "What is the toolbox used for in the game?",
+        "options": [
+          "To delete levels",
+          "To change the game language",
+          "To show hints during challenges",
+          "To skip all challenges"
+        ],
+        "answer": "To show hints during challenges",
+        "hint": "It helps the player when they are unsure about a question."
+      },
+      {
+        "id": "0.5",
+        "type": "multiple-choice",
+        "question": "What is the best way to complete a challenge?",
+        "options": [
+          "Click any answer quickly",
+          "Ignore the example",
+          "Answer without reading the question",
+          "Read the explanation, observe the example, and answer carefully"
+        ],
+        "answer": "Read the explanation, observe the example, and answer carefully",
+        "hint": "The game was designed to teach step by step."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Basic structure of a Java program",
+    "reward": "fence",
+    "environment": "outside",
+    "summary": "Learn the minimum structure of a Java program.",
+    "explanation": "When you arrive at your plot of land, it is empty but full of potential. Your neighbor, Mr. Main, appears by the fence and says: “Every construction needs an entrance, and every Java program needs one too!” In Java, code must be organized inside a class, like the land where everything will be built. The main method is the front door: it is where the program starts running. Without that door, nothing happens. The village gossip says many newcomers try to write loose commands, but Miss Syntax always complains: “Without structure, Javaland cannot understand you!” In this level, you will learn how to build the base of a Java program and display your first message with System.out.println.",
+    "example": {
+      "title": "First program example",
+      "code": "public class Main {\n  public static void main(String[] args) {\n    System.out.println(\"Hello, Javaland!\");\n  }\n}",
+      "comment": "This code creates a class called Main. Inside it, the main method runs System.out.println to display a message."
+    },
+    "steps": [
+      {
+        "id": "1.1",
+        "type": "multiple-choice",
+        "question": "Which keyword do we use to create a class in Java?",
+        "options": [
+          "create",
+          "function",
+          "class",
+          "program"
+        ],
+        "answer": "class",
+        "hint": "The structure starts with public class Main."
+      },
+      {
+        "id": "1.2",
+        "type": "multiple-choice",
+        "question": "Which method is considered the entry point of a Java program?",
+        "options": [
+          "start",
+          "run",
+          "print",
+          "main"
+        ],
+        "answer": "main",
+        "hint": "It appears as public static void main."
+      },
+      {
+        "id": "1.3",
+        "type": "complete-code",
+        "question": "Complete the command to print a message: System.out.______(\"Hello\");",
+        "answer": "println",
+        "hint": "println is used to print a line in the console."
+      },
+      {
+        "id": "1.4",
+        "type": "multiple-choice",
+        "question": "What output does this command generate? System.out.println(\"House\");",
+        "options": [
+          "\"House\"",
+          "System.out.println",
+          "House",
+          "Error, because House is not a number"
+        ],
+        "answer": "House",
+        "hint": "The text inside the quotes is displayed without the quotes."
+      },
+      {
+        "id": "1.5",
+        "type": "write-code",
+        "question": "Write a complete Java program that displays: Hello, Javaland!",
+        "answer": "public class Main { public static void main(String[] args) { System.out.println(\"Hello, Javaland!\"); } }",
+        "hint": "Use public class Main, public static void main(String[] args), and System.out.println(\"Hello, Javaland!\");"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Variables and primitive types",
+    "reward": "fenceGate",
+    "environment": "outside",
+    "summary": "Learn how to declare variables and use basic types in Java.",
+    "explanation": "After creating the base of your program, you find old chests scattered around the land. Miss Variable, the neighbor who organizes everything in the village, explains that each chest stores a specific kind of information. One chest can store whole numbers, another can store text, and another can store true or false values. In Java, these chests are variables. But Javaland is strict: before storing something, you must say what type of data belongs there. It is like saying: “this chest is for numbers”, “this one is for text”, and “this one is for boolean answers”. In this level, you will learn types such as int, double, boolean, char, and String.",
+    "example": {
+      "title": "Variables example",
+      "code": "public class Main {\n  public static void main(String[] args) {\n    int age = 18;\n    double height = 1.70;\n    boolean student = true;\n    String city = \"Javaland\";\n\n    System.out.println(city);\n  }\n}",
+      "comment": "Each variable has a type. The city variable stores text and is then displayed in the console."
+    },
+    "steps": [
+      {
+        "id": "2.1",
+        "type": "multiple-choice",
+        "question": "Which type do we use to store whole numbers in Java?",
+        "options": [
+          "double",
+          "boolean",
+          "int",
+          "String"
+        ],
+        "answer": "int",
+        "hint": "Whole numbers are values like 1, 2, 3, 10, and 100."
+      },
+      {
+        "id": "2.2",
+        "type": "multiple-choice",
+        "question": "Which type do we use to store text in Java?",
+        "options": [
+          "int",
+          "String",
+          "boolean",
+          "char"
+        ],
+        "answer": "String",
+        "hint": "Text in Java is written inside double quotes."
+      },
+      {
+        "id": "2.3",
+        "type": "complete-code",
+        "question": "Complete the declaration: _____ name = \"Leda\";",
+        "answer": "String",
+        "hint": "Text in Java uses a type that starts with an uppercase letter."
+      },
+      {
+        "id": "2.4",
+        "type": "multiple-choice",
+        "question": "Which value best matches a boolean variable?",
+        "options": [
+          "10",
+          "\"Javaland\"",
+          "1.75",
+          "true"
+        ],
+        "answer": "true",
+        "hint": "boolean stores only true or false."
+      },
+      {
+        "id": "2.5",
+        "type": "write-code",
+        "question": "Write one line creating an int variable called points with value 10.",
+        "answer": "int points = 10;",
+        "hint": "Use the type, the variable name, the equals sign, the value, and a semicolon."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Input, output, and imports",
+    "reward": "petHouse",
+    "environment": "outside",
+    "summary": "Learn how to use Scanner to read user input and understand why some resources need imports.",
+    "explanation": "Now that your house is starting to take shape, the neighbors want to talk to you. The problem is that, so far, your program only knows how to speak using System.out.println, but it does not know how to listen yet. That is where Scanner comes in: a tool that reads what the user types. But Scanner lives in the java.util warehouse on the other side of the village. To use it, you need an import, as if officially asking: “Javaland, bring Scanner to me!” The village Importer always says: “Not every tool comes ready in your hands; some must be called from the right place.” In this level, you will learn why we use import java.util.Scanner and how to receive typed information.",
+    "example": {
+      "title": "Example with import and Scanner",
+      "code": "import java.util.Scanner;\n\npublic class Main {\n  public static void main(String[] args) {\n    Scanner input = new Scanner(System.in);\n\n    System.out.println(\"Type your name:\");\n    String name = input.nextLine();\n\n    System.out.println(\"Welcome, \" + name);\n  }\n}",
+      "comment": "The import brings the Scanner class into the program. Then we create a Scanner called input to read what the user types."
+    },
+    "steps": [
+      {
+        "id": "3.1",
+        "type": "multiple-choice",
+        "question": "Why do we use import java.util.Scanner in the example?",
+        "options": [
+          "To change the console color",
+          "To bring the Scanner class into the program",
+          "To create an int variable",
+          "To end the main method"
+        ],
+        "answer": "To bring the Scanner class into the program",
+        "hint": "Scanner is not used directly without being imported."
+      },
+      {
+        "id": "3.2",
+        "type": "complete-code",
+        "question": "Complete the correct import: import java.util._______;",
+        "answer": "Scanner",
+        "hint": "It is the name of the class used for input."
+      },
+      {
+        "id": "3.3",
+        "type": "multiple-choice",
+        "question": "Which command creates a Scanner called input?",
+        "options": [
+          "Scanner input = System.out;",
+          "new Scanner = input(System.in);",
+          "Scanner input = new Scanner(System.in);",
+          "input Scanner = new System.in;"
+        ],
+        "answer": "Scanner input = new Scanner(System.in);",
+        "hint": "The structure uses type, name, new Scanner, and System.in."
+      },
+      {
+        "id": "3.4",
+        "type": "multiple-choice",
+        "question": "Which method can read an entire line of text?",
+        "options": [
+          "nextNumber",
+          "readAll",
+          "textInput",
+          "nextLine"
+        ],
+        "answer": "nextLine",
+        "hint": "This method reads a complete line typed by the user."
+      },
+      {
+        "id": "3.5",
+        "type": "write-code",
+        "question": "Write one line that reads text and stores it in the variable name.",
+        "answer": "String name = input.nextLine();",
+        "hint": "Use String, the variable name, input.nextLine, and a semicolon."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Java operators",
+    "reward": "flowers",
+    "environment": "outside",
+    "summary": "Learn arithmetic, relational, and logical operators.",
+    "explanation": "In Javaland, everything involves measurements, comparisons, and small decisions. The fence needs the right size, the little gate only opens if the condition is true, and the materials must be added correctly. Mr. Operator, the neighbor who measures plots of land, explains that operators are symbols that perform actions in code. Some do math, such as +, -, *, and /. Others compare values, such as ==, !=, >, and <. There are also logical operators, such as && and ||, which combine conditions. The village gossip is that many people confuse = with ==, and that makes Miss Syntax desperate. In this level, you will learn how Java calculates, compares, and combines information.",
+    "example": {
+      "title": "Operators example",
+      "code": "public class Main {\n  public static void main(String[] args) {\n    int points = 10;\n    boolean passed = points >= 7;\n\n    System.out.println(passed);\n  }\n}",
+      "comment": "The >= operator checks if points is greater than or equal to 7. The result is stored in the passed variable."
+    },
+    "steps": [
+      {
+        "id": "4.1",
+        "type": "multiple-choice",
+        "question": "Which operator do we use to check equality in Java?",
+        "options": [
+          "=",
+          "===",
+          "!=",
+          "=="
+        ],
+        "answer": "==",
+        "hint": "One equals sign assigns a value. Two equals signs compare equality."
+      },
+      {
+        "id": "4.2",
+        "type": "multiple-choice",
+        "question": "Which operator represents logical AND in Java?",
+        "options": [
+          "||",
+          "&&",
+          "!",
+          "=="
+        ],
+        "answer": "&&",
+        "hint": "It requires two conditions to be true at the same time."
+      },
+      {
+        "id": "4.3",
+        "type": "complete-code",
+        "question": "Complete the expression to check if age is greater than or equal to 18: age __ 18",
+        "answer": ">=",
+        "hint": "Use the greater-than-or-equal operator."
+      },
+      {
+        "id": "4.4",
+        "type": "multiple-choice",
+        "question": "What is the result of: 10 + 5 * 2?",
+        "options": [
+          "30",
+          "25",
+          "20",
+          "15"
+        ],
+        "answer": "20",
+        "hint": "Multiplication happens before addition."
+      },
+      {
+        "id": "4.5",
+        "type": "write-code",
+        "question": "Write one line that creates a boolean variable called passed checking if grade is greater than or equal to 7.",
+        "answer": "boolean passed = grade >= 7;",
+        "hint": "Use boolean, the variable name, the equals sign, and the comparison grade >= 7."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Conditionals",
+    "reward": "petChoice",
+    "environment": "outside-complete",
+    "summary": "Learn how to use if, else if, and else to make decisions in code.",
+    "explanation": "Javaland has many secret paths. Some doors only open if you have enough points, some neighbors only give rewards if a condition is true, and even your pet choice depends on a decision. Mr. If, the village gatekeeper, explains: “If a condition is true, I let it pass. If not, I send it to another path.” In Java, we use if to test a condition, else if to test another possibility, and else to define what happens when no previous condition is true. The gossip is that the fence gate has blocked many newcomers who forgot to write the condition inside parentheses. In this level, you will learn how to make the program decide and, at the end, choose your Javaland companion: a cat or a dog.",
+    "example": {
+      "title": "Conditional example",
+      "code": "public class Main {\n  public static void main(String[] args) {\n    int points = 8;\n\n    if (points >= 7) {\n      System.out.println(\"Approved\");\n    } else {\n      System.out.println(\"Try again\");\n    }\n  }\n}",
+      "comment": "The program checks if points is greater than or equal to 7. If true, it displays Approved. Otherwise, it displays Try again."
+    },
+    "steps": [
+      {
+        "id": "5.1",
+        "type": "multiple-choice",
+        "question": "Which word do we use to start a condition in Java?",
+        "options": [
+          "when",
+          "case",
+          "if",
+          "check"
+        ],
+        "answer": "if",
+        "hint": "It is the word used before the condition in parentheses."
+      },
+      {
+        "id": "5.2",
+        "type": "complete-code",
+        "question": "Complete the structure: if (age >= 18) { } ____ { }",
+        "answer": "else",
+        "hint": "This part runs when the if condition is not true."
+      },
+      {
+        "id": "5.3",
+        "type": "multiple-choice",
+        "question": "When is the else block executed?",
+        "options": [
+          "Always before the if",
+          "When the if condition is false",
+          "When the code has no class",
+          "Only when Scanner exists"
+        ],
+        "answer": "When the if condition is false",
+        "hint": "else works as the alternative path."
+      },
+      {
+        "id": "5.4",
+        "type": "multiple-choice",
+        "question": "Which structure is written correctly?",
+        "options": [
+          "if points >= 7 { System.out.println(\"Approved\"); }",
+          "if points >= 7 then System.out.println(\"Approved\");",
+          "condition (points >= 7) { System.out.println(\"Approved\"); }",
+          "if (points >= 7) { System.out.println(\"Approved\"); }"
+        ],
+        "answer": "if (points >= 7) { System.out.println(\"Approved\"); }",
+        "hint": "In Java, the if condition goes inside parentheses."
+      },
+      {
+        "id": "5.5",
+        "type": "write-code",
+        "question": "Write a condition that checks if points is greater than or equal to 7 and prints Approved.",
+        "answer": "if (points >= 7) { System.out.println(\"Approved\"); }",
+        "hint": "Use if, the condition in parentheses, and System.out.println inside the braces."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Loops",
+    "reward": "sofa",
+    "environment": "living",
+    "summary": "Learn how to repeat commands using for, while, and do-while.",
+    "explanation": "After choosing your pet, you realize that building a house involves repetitive tasks. Placing wood, testing commands, reviewing steps, organizing tools… imagine writing the same command a hundred times! Mr. Loop, the neighbor who never stops walking around the town square, says: “If something needs to happen many times, let the loop work for you!” In Java, loops execute a block of code while a condition allows it. for is often used when we already know how many times to repeat; while works when the repetition depends on a condition; and do-while runs at least once before checking. In this level, you will learn how to repeat actions intelligently without copying and pasting code endlessly.",
+    "example": {
+      "title": "Example with for",
+      "code": "public class Main {\n  public static void main(String[] args) {\n    for (int i = 1; i <= 3; i++) {\n      System.out.println(\"Building part \" + i);\n    }\n  }\n}",
+      "comment": "This code repeats System.out.println three times. i starts at 1, runs while it is less than or equal to 3, and increases each repetition."
+    },
+    "steps": [
+      {
+        "id": "6.1",
+        "type": "multiple-choice",
+        "question": "What is a loop used for?",
+        "options": [
+          "To create a class",
+          "To repeat commands while a condition allows it",
+          "To import images",
+          "To change a file name"
+        ],
+        "answer": "To repeat commands while a condition allows it",
+        "hint": "Think about tasks that need to happen several times."
+      },
+      {
+        "id": "6.2",
+        "type": "multiple-choice",
+        "question": "Which structure is often used when we know how many times we want to repeat?",
+        "options": [
+          "class",
+          "String",
+          "else",
+          "for"
+        ],
+        "answer": "for",
+        "hint": "It usually has initialization, condition, and increment in the same line."
+      },
+      {
+        "id": "6.3",
+        "type": "complete-code",
+        "question": "Complete the loop: ___ (int i = 0; i < 5; i++) { }",
+        "answer": "for",
+        "hint": "It is the most common loop for counting."
+      },
+      {
+        "id": "6.4",
+        "type": "multiple-choice",
+        "question": "How many times does this loop run? for (int i = 1; i <= 3; i++)",
+        "options": [
+          "1 time",
+          "3 times",
+          "2 times",
+          "4 times"
+        ],
+        "answer": "3 times",
+        "hint": "It starts at 1 and runs for 1, 2, and 3."
+      },
+      {
+        "id": "6.5",
+        "type": "write-code",
+        "question": "Write a for loop that counts from 1 to 3.",
+        "answer": "for (int i = 1; i <= 3; i++) { System.out.println(i); }",
+        "hint": "Use int i = 1, the condition i <= 3, and the increment i++."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Methods in Java",
+    "reward": "livingCoffeeTable",
+    "environment": "living",
+    "summary": "Learn how to create and call methods to organize code.",
+    "explanation": "As your house grows, the villagers start asking for help: Miss Variable wants to organize chests, Mr. Operator wants to calculate measurements, and Mr. Main wants to keep the entrance clean. To avoid mixing everything in one place, Javaland uses methods. A method is like a small specialized workshop: it stores a specific task and can be called whenever needed. Instead of repeating the same code many times, you create a method and use it when necessary. The village gossip says that code without methods becomes such a mess that even Miss Syntax gives up organizing it. In this level, you will learn how to create and call methods, making your program more organized and reusable.",
+    "example": {
+      "title": "Method example",
+      "code": "public class Main {\n  public static void showMessage() {\n    System.out.println(\"Welcome to Javaland!\");\n  }\n\n  public static void main(String[] args) {\n    showMessage();\n  }\n}",
+      "comment": "The showMessage method stores a command. Inside main, we call this method by its name."
+    },
+    "steps": [
+      {
+        "id": "7.1",
+        "type": "multiple-choice",
+        "question": "What is a method used for?",
+        "options": [
+          "To change the file extension",
+          "To create an image",
+          "To organize a code action into a reusable block",
+          "To delete the program"
+        ],
+        "answer": "To organize a code action into a reusable block",
+        "hint": "A method can be called whenever that action is needed."
+      },
+      {
+        "id": "7.2",
+        "type": "multiple-choice",
+        "question": "Which call runs a method called showMessage?",
+        "options": [
+          "call showMessage;",
+          "method showMessage;",
+          "run: showMessage",
+          "showMessage();"
+        ],
+        "answer": "showMessage();",
+        "hint": "To call a method, we use its name and parentheses."
+      },
+      {
+        "id": "7.3",
+        "type": "complete-code",
+        "question": "Complete the method call: showMessage__",
+        "answer": "();",
+        "hint": "The call needs parentheses and a semicolon."
+      },
+      {
+        "id": "7.4",
+        "type": "multiple-choice",
+        "question": "What does void mean in a method?",
+        "options": [
+          "That the method is a variable",
+          "That the method does not return a value",
+          "That the method only accepts text",
+          "That the method is private"
+        ],
+        "answer": "That the method does not return a value",
+        "hint": "void indicates no return value."
+      },
+      {
+        "id": "7.5",
+        "type": "write-code",
+        "question": "Write the call of a method called buildHouse.",
+        "answer": "buildHouse();",
+        "hint": "Use the method name, parentheses, and a semicolon."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Arrays and lists",
+    "reward": "bookshelf",
+    "environment": "living",
+    "summary": "Learn how to store multiple values in one structure.",
+    "explanation": "Your house now needs to store many items: furniture, tools, flowers, kitchen pieces, and bedroom objects. At first, you could create one variable for each thing, but soon the whole village starts saying: “This code has chests everywhere!” To solve that, Miss List introduces arrays and lists. An array works like a shelf with fixed positions, where each item has an index. In Java, the first position is always 0, which confuses many newcomers in Javaland. Lists such as ArrayList are more flexible and can grow. In this level, you will learn how to store several values together and access each item by its correct position.",
+    "example": {
+      "title": "Array example",
+      "code": "public class Main {\n  public static void main(String[] args) {\n    String[] furniture = {\"sofa\", \"table\", \"tv\"};\n\n    System.out.println(furniture[0]);\n  }\n}",
+      "comment": "The furniture array stores three texts. Index 0 accesses the first item, which is sofa."
+    },
+    "steps": [
+      {
+        "id": "8.1",
+        "type": "multiple-choice",
+        "question": "What is an array used for?",
+        "options": [
+          "To create a condition",
+          "To repeat code automatically",
+          "To store multiple values in one structure",
+          "To print only text"
+        ],
+        "answer": "To store multiple values in one structure",
+        "hint": "Think about a list of furniture, names, or numbers."
+      },
+      {
+        "id": "8.2",
+        "type": "multiple-choice",
+        "question": "In Java, what is the index of the first element in an array?",
+        "options": [
+          "1",
+          "2",
+          "0",
+          "-1"
+        ],
+        "answer": "0",
+        "hint": "Index counting starts from zero."
+      },
+      {
+        "id": "8.3",
+        "type": "complete-code",
+        "question": "Complete the access to the first item: furniture[_]",
+        "answer": "0",
+        "hint": "The first item is in position zero."
+      },
+      {
+        "id": "8.4",
+        "type": "multiple-choice",
+        "question": "Which code creates an array of Strings?",
+        "options": [
+          "String names = [\"Ana\", \"Bia\"];",
+          "array String names = \"Ana\", \"Bia\";",
+          "names String[] = {Ana, Bia};",
+          "String[] names = {\"Ana\", \"Bia\"};"
+        ],
+        "answer": "String[] names = {\"Ana\", \"Bia\"};",
+        "hint": "In Java, we use String[] for an array of texts."
+      },
+      {
+        "id": "8.5",
+        "type": "write-code",
+        "question": "Write one line that creates an int array called numbers with the values 1, 2, and 3.",
+        "answer": "int[] numbers = {1, 2, 3};",
+        "hint": "Use int[], the array name, braces with values, and a semicolon."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Classes and objects",
+    "reward": "tv",
+    "environment": "living-complete",
+    "summary": "Learn how to create objects from classes.",
+    "explanation": "In Javaland, everything starts with a model. Before building a house, there is a blueprint. Before assembling a chair, there is a design. Before creating a character, there is a description. In Java, this model is called a class. The class defines characteristics and behaviors, as if saying: “every house can have a color, a door, and furniture.” The object is the real thing created from that model, like your specific house in Javaland. Mr. Object, a very literal neighbor, always says: “I am not the blueprint, I am the construction!” In this level, you will learn the difference between classes and objects.",
+    "example": {
+      "title": "Class and object example",
+      "code": "class House {\n  String color = \"beige\";\n}\n\npublic class Main {\n  public static void main(String[] args) {\n    House myHouse = new House();\n    System.out.println(myHouse.color);\n  }\n}",
+      "comment": "The House class works as a model. The myHouse object is created with new House() and can access the color attribute."
+    },
+    "steps": [
+      {
+        "id": "9.1",
+        "type": "multiple-choice",
+        "question": "What is a class?",
+        "options": [
+          "A Java error",
+          "A project image",
+          "A model used to create objects",
+          "A type only used for numbers"
+        ],
+        "answer": "A model used to create objects",
+        "hint": "Think of a class as a blueprint or mold."
+      },
+      {
+        "id": "9.2",
+        "type": "multiple-choice",
+        "question": "Which keyword do we use to create an object in Java?",
+        "options": [
+          "make",
+          "new",
+          "object",
+          "create"
+        ],
+        "answer": "new",
+        "hint": "Object creation usually appears as new ClassName()."
+      },
+      {
+        "id": "9.3",
+        "type": "complete-code",
+        "question": "Complete the object creation: House myHouse = ___ House();",
+        "answer": "new",
+        "hint": "This is the keyword used to instantiate objects."
+      },
+      {
+        "id": "9.4",
+        "type": "multiple-choice",
+        "question": "In the code House myHouse = new House();, what is myHouse?",
+        "options": [
+          "A class",
+          "An import",
+          "An object",
+          "An operator"
+        ],
+        "answer": "An object",
+        "hint": "The myHouse variable stores the instance created from the House class."
+      },
+      {
+        "id": "9.5",
+        "type": "write-code",
+        "question": "Write one line creating an object called myHouse from the House class.",
+        "answer": "House myHouse = new House();",
+        "hint": "Use ClassName objectName = new ClassName();"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Encapsulation",
+    "reward": "toilet",
+    "environment": "bathroom",
+    "summary": "Learn how to protect attributes using private, public, getters, and setters.",
+    "explanation": "As your house becomes more advanced, you realize that not everything should be exposed. If any neighbor could directly change your things, it would be chaos: Mr. Loop might change your points by accident, Miss Variable could rename your chests, and the cat might open the fridge alone. In Java, encapsulation protects class data. We use private to prevent direct access and create public methods, such as getters and setters, to control how information is read or changed. The village gossip says the best houses in Javaland protect their attributes well. In this level, you will learn how to hide important data and allow safe access.",
+    "example": {
+      "title": "Encapsulation example",
+      "code": "class Person {\n  private String name;\n\n  public String getName() {\n    return name;\n  }\n\n  public void setName(String newName) {\n    name = newName;\n  }\n}",
+      "comment": "The name attribute is private, so it should not be accessed directly from outside the class. The getName and setName methods control access."
+    },
+    "steps": [
+      {
+        "id": "10.1",
+        "type": "multiple-choice",
+        "question": "Which keyword makes an attribute accessible only inside its own class?",
+        "options": [
+          "public",
+          "private",
+          "class",
+          "static"
+        ],
+        "answer": "private",
+        "hint": "This keyword restricts direct access to the attribute."
+      },
+      {
+        "id": "10.2",
+        "type": "multiple-choice",
+        "question": "What is a getter used for?",
+        "options": [
+          "To delete a class",
+          "To create a loop",
+          "To return or read the value of an attribute",
+          "To import a library"
+        ],
+        "answer": "To return or read the value of an attribute",
+        "hint": "Get is related to obtaining a value."
+      },
+      {
+        "id": "10.3",
+        "type": "complete-code",
+        "question": "Complete the encapsulated attribute: ______ String name;",
+        "answer": "private",
+        "hint": "The attribute should be protected inside the class."
+      },
+      {
+        "id": "10.4",
+        "type": "multiple-choice",
+        "question": "Which method looks like a correct getter for the name attribute?",
+        "options": [
+          "public void name() { return; }",
+          "private class getName()",
+          "String public get = name;",
+          "public String getName() { return name; }"
+        ],
+        "answer": "public String getName() { return name; }",
+        "hint": "A getter returns the attribute type and uses return."
+      },
+      {
+        "id": "10.5",
+        "type": "write-code",
+        "question": "Write one line declaring a private String attribute called name.",
+        "answer": "private String name;",
+        "hint": "Use private, then String, then name, and a semicolon."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Constructors",
+    "reward": "bathroomSink",
+    "environment": "bathroom",
+    "summary": "Learn how to create objects with initial values.",
+    "explanation": "Now you want to create objects that are ready from the beginning. Imagine building a house and defining its color at the moment it is created, instead of creating an empty house and configuring everything later. In Javaland, the Constructor is responsible for that: a master builder who appears whenever someone uses new. In Java, a constructor has the same name as the class and prepares the object from the start. The Constructor always says: “A well-created object begins with identity!” In this level, you will learn how to use constructors to create objects with initial values.",
+    "example": {
+      "title": "Constructor example",
+      "code": "class House {\n  String color;\n\n  House(String initialColor) {\n    color = initialColor;\n  }\n}\n\npublic class Main {\n  public static void main(String[] args) {\n    House myHouse = new House(\"beige\");\n    System.out.println(myHouse.color);\n  }\n}",
+      "comment": "The House constructor receives an initial color and stores it in the color attribute when the object is created."
+    },
+    "steps": [
+      {
+        "id": "11.1",
+        "type": "multiple-choice",
+        "question": "What is the main purpose of a constructor?",
+        "options": [
+          "Repeat commands",
+          "Compare two numbers",
+          "Initialize an object",
+          "Read data with Scanner"
+        ],
+        "answer": "Initialize an object",
+        "hint": "The constructor is called when we use new."
+      },
+      {
+        "id": "11.2",
+        "type": "multiple-choice",
+        "question": "The name of a constructor must be the same as what?",
+        "options": [
+          "The package",
+          "The class",
+          "The main method",
+          "The variable"
+        ],
+        "answer": "The class",
+        "hint": "If the class is called House, the constructor is also called House."
+      },
+      {
+        "id": "11.3",
+        "type": "complete-code",
+        "question": "Complete the constructor of the House class: ____ (String initialColor) { }",
+        "answer": "House",
+        "hint": "The constructor has the same name as the class."
+      },
+      {
+        "id": "11.4",
+        "type": "multiple-choice",
+        "question": "Which object creation calls a constructor with a parameter?",
+        "options": [
+          "House myHouse = House;",
+          "new = House myHouse(\"beige\");",
+          "House myHouse = new House(\"beige\");",
+          "House(\"beige\") = new myHouse;"
+        ],
+        "answer": "House myHouse = new House(\"beige\");",
+        "hint": "The new keyword calls the class constructor."
+      },
+      {
+        "id": "11.5",
+        "type": "write-code",
+        "question": "Write one line creating a House object called myHouse passing \"blue\" as a value.",
+        "answer": "House myHouse = new House(\"blue\");",
+        "hint": "Use House myHouse = new House(\"blue\");"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Inheritance and polymorphism",
+    "reward": "shower",
+    "environment": "bathroom-complete",
+    "summary": "Learn how to reuse code with inheritance and see the initial idea of polymorphism.",
+    "explanation": "In the village, everyone knows cats and dogs are different, but both are animals. They have their own behaviors, but they share common characteristics. In Java, this is similar to inheritance. A child class can inherit characteristics from a parent class using extends. Dog can inherit from Animal, Cat can inherit from Animal, and the code becomes more reusable. Then comes the part that creates gossip in the town square: polymorphism. Miss Poly explains that a variable of type Animal can hold a Dog object because Dog is also an Animal. In this level, you will learn how classes relate and how general types can represent specific objects.",
+    "example": {
+      "title": "Inheritance and polymorphism example",
+      "code": "class Animal {\n  void makeSound() {\n    System.out.println(\"Animal sound\");\n  }\n}\n\nclass Dog extends Animal {\n  void wagTail() {\n    System.out.println(\"Wagging tail\");\n  }\n}\n\npublic class Main {\n  public static void main(String[] args) {\n    Animal animal = new Dog();\n    animal.makeSound();\n  }\n}",
+      "comment": "Dog inherits from Animal. Because of that, a variable of type Animal can hold a Dog object. This is an initial idea of polymorphism."
+    },
+    "steps": [
+      {
+        "id": "12.1",
+        "type": "multiple-choice",
+        "question": "Which keyword indicates inheritance in Java?",
+        "options": [
+          "inherits",
+          "parent",
+          "extends",
+          "superclass"
+        ],
+        "answer": "extends",
+        "hint": "This keyword connects a child class to a parent class."
+      },
+      {
+        "id": "12.2",
+        "type": "multiple-choice",
+        "question": "In the phrase class Dog extends Animal, what is Dog?",
+        "options": [
+          "Parent class",
+          "Main method",
+          "Child class",
+          "Primitive type"
+        ],
+        "answer": "Child class",
+        "hint": "Dog inherits characteristics from Animal."
+      },
+      {
+        "id": "12.3",
+        "type": "complete-code",
+        "question": "Complete the inheritance: class Cat ______ Animal { }",
+        "answer": "extends",
+        "hint": "This is the word used to inherit from another class."
+      },
+      {
+        "id": "12.4",
+        "type": "multiple-choice",
+        "question": "Which line shows an initial idea of polymorphism?",
+        "options": [
+          "int age = 10;",
+          "Animal animal = new Dog();",
+          "String name = \"Rex\";",
+          "System.out.println(\"Hi\");"
+        ],
+        "answer": "Animal animal = new Dog();",
+        "hint": "A variable of type Animal is holding a Dog object."
+      },
+      {
+        "id": "12.5",
+        "type": "write-code",
+        "question": "Write a class declaration called Dog that inherits from Animal.",
+        "answer": "class Dog extends Animal { }",
+        "hint": "Use class, the child class name, extends, and the parent class name."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Strings in Java",
+    "reward": "table",
+    "environment": "kitchen",
+    "summary": "Learn how to work with text using String.",
+    "explanation": "The signs, names, messages, and even the village gossip in Javaland are made of text. In Java, text is represented by String. But Miss String is detail-oriented: she cares about uppercase letters, spaces, and exactly what is inside the quotes. The most famous gossip in the village is about two neighbors who compared texts with == and spent hours wondering why the result was strange. To compare String content, we use equals. We can also join text with + and count characters with length. In this level, you will learn how to manipulate text carefully, because in Javaland even a space inside quotes can change everything.",
+    "example": {
+      "title": "String example",
+      "code": "public class Main {\n  public static void main(String[] args) {\n    String city = \"Javaland\";\n    System.out.println(\"Welcome to \" + city);\n    System.out.println(city.length());\n  }\n}",
+      "comment": "The city variable stores text. The + operator joins text, and length shows the number of characters."
+    },
+    "steps": [
+      {
+        "id": "13.1",
+        "type": "multiple-choice",
+        "question": "Which type do we use to store text in Java?",
+        "options": [
+          "int",
+          "String",
+          "boolean",
+          "double"
+        ],
+        "answer": "String",
+        "hint": "Text in Java is written inside double quotes."
+      },
+      {
+        "id": "13.2",
+        "type": "multiple-choice",
+        "question": "Which method is used to compare the content of two Strings?",
+        "options": [
+          "compareText",
+          "== always",
+          "equals",
+          "same"
+        ],
+        "answer": "equals",
+        "hint": "To compare text content, prefer equals."
+      },
+      {
+        "id": "13.3",
+        "type": "complete-code",
+        "question": "Complete: name._______(\"Leda\")",
+        "answer": "equals",
+        "hint": "This is the method used to compare String content."
+      },
+      {
+        "id": "13.4",
+        "type": "multiple-choice",
+        "question": "What is the output of: System.out.println(\"Java\" + \"land\");",
+        "options": [
+          "Java land",
+          "Java + land",
+          "Javaland",
+          "Error"
+        ],
+        "answer": "Javaland",
+        "hint": "The + operator joins the texts exactly as they are. If it were \"Java \" + \"land\", the result would be Java land."
+      },
+      {
+        "id": "13.5",
+        "type": "write-code",
+        "question": "Write one line creating a String called city with the value \"Javaland\".",
+        "answer": "String city = \"Javaland\";",
+        "hint": "Use String, the variable name, the equals sign, text inside quotes, and a semicolon."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "ArrayList and collections",
+    "reward": "kitchenSink",
+    "environment": "kitchen",
+    "summary": "Learn how to store multiple values in a flexible list.",
+    "explanation": "The house has grown, and the items keep arriving: table, sink, stove, fridge, shelves, and many other things. The array helped at first, but Miss Flexible List appears at the door and says: “Dear, a fixed shelf does not solve a move that never ends!” ArrayList is a collection that can grow as new elements are added. To use it, we import java.util.ArrayList because it is one of Java’s ready-made tools. In this level, you will learn how to add items with add, access elements with get, and work with more flexible lists.",
+    "example": {
+      "title": "ArrayList example",
+      "code": "import java.util.ArrayList;\n\npublic class Main {\n  public static void main(String[] args) {\n    ArrayList<String> furniture = new ArrayList<>();\n    furniture.add(\"sofa\");\n    furniture.add(\"table\");\n\n    System.out.println(furniture.get(0));\n  }\n}",
+      "comment": "The furniture ArrayList stores texts. The add method adds items, and get accesses an item by index."
+    },
+    "steps": [
+      {
+        "id": "14.1",
+        "type": "multiple-choice",
+        "question": "Which collection can grow as we add new items?",
+        "options": [
+          "int",
+          "boolean",
+          "ArrayList",
+          "char"
+        ],
+        "answer": "ArrayList",
+        "hint": "It is a flexible list."
+      },
+      {
+        "id": "14.2",
+        "type": "complete-code",
+        "question": "Complete the import: import java.util._________;",
+        "answer": "ArrayList",
+        "hint": "It is the collection used in this level."
+      },
+      {
+        "id": "14.3",
+        "type": "multiple-choice",
+        "question": "Which method adds an item to an ArrayList?",
+        "options": [
+          "pushJava",
+          "insertOnly",
+          "newItem",
+          "add"
+        ],
+        "answer": "add",
+        "hint": "It is the most common method for adding elements."
+      },
+      {
+        "id": "14.4",
+        "type": "multiple-choice",
+        "question": "Which method accesses an item by index in an ArrayList?",
+        "options": [
+          "take",
+          "get",
+          "read",
+          "index"
+        ],
+        "answer": "get",
+        "hint": "We use list.get(0), for example."
+      },
+      {
+        "id": "14.5",
+        "type": "write-code",
+        "question": "Write one line adding \"table\" to a list called furniture.",
+        "answer": "furniture.add(\"table\");",
+        "hint": "Use the list name, dot, add, and the text inside quotes."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Exception handling",
+    "reward": "stove",
+    "environment": "kitchen",
+    "summary": "Learn how to handle errors using try, catch, and finally.",
+    "explanation": "Not everything in Javaland goes as planned. Sometimes someone tries to divide by zero, open a file that does not exist, or type unexpected input. When that happens, the program may generate an exception. Mr. Try, the brave neighbor, attempts the action. Miss Catch stays ready to capture the problem if something goes wrong. Mr. Finally, very responsible, always appears at the end, with or without an error, to close the operation. The gossip says programs without exception handling break in front of the whole village. In this level, you will learn how to use try, catch, and finally to handle failures safely.",
+    "example": {
+      "title": "Example with try, catch, and finally",
+      "code": "public class Main {\n  public static void main(String[] args) {\n    try {\n      int result = 10 / 0;\n      System.out.println(result);\n    } catch (ArithmeticException error) {\n      System.out.println(\"Cannot divide by zero.\");\n    } finally {\n      System.out.println(\"Finishing operation.\");\n    }\n  }\n}",
+      "comment": "Division by zero generates an exception. catch captures this error and shows a safe message. finally runs at the end, even when an error happens."
+    },
+    "steps": [
+      {
+        "id": "15.1",
+        "type": "multiple-choice",
+        "question": "Which block do we use to try running code that may generate an error?",
+        "options": [
+          "if",
+          "try",
+          "for",
+          "class"
+        ],
+        "answer": "try",
+        "hint": "It comes before catch."
+      },
+      {
+        "id": "15.2",
+        "type": "multiple-choice",
+        "question": "Which block captures and handles an exception?",
+        "options": [
+          "extends",
+          "main",
+          "catch",
+          "return"
+        ],
+        "answer": "catch",
+        "hint": "It receives the error if something goes wrong inside try."
+      },
+      {
+        "id": "15.3",
+        "type": "complete-code",
+        "question": "Complete the structure: try { } _____ (Exception error) { }",
+        "answer": "catch",
+        "hint": "This is the block that handles the exception."
+      },
+      {
+        "id": "15.4",
+        "type": "multiple-choice",
+        "question": "When is the finally block executed?",
+        "options": [
+          "Only when there is no error",
+          "Only when the program has Scanner",
+          "At the end, even if an error happens",
+          "Only before try"
+        ],
+        "answer": "At the end, even if an error happens",
+        "hint": "finally is used for something that must happen when the operation ends."
+      },
+      {
+        "id": "15.5",
+        "type": "write-code",
+        "question": "Write a simple catch structure for Exception called error.",
+        "answer": "catch (Exception error) { }",
+        "hint": "Use catch, parentheses with Exception error, and braces."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Files in Java",
+    "reward": "fridge",
+    "environment": "kitchen",
+    "summary": "Learn the basic idea of reading files in Java.",
+    "explanation": "So far, much of your journey existed only while the program was running. But Javaland is an old village and loves records: books, signs, maps, lists, and files stored in the town hall archive. In Java, working with files allows us to read and write information outside the program memory. The File class represents a file, and Scanner can read its lines. The Archivist always says: “Memory forgets, files record!” In this level, you will learn the basic idea of reading files in Java.",
+    "example": {
+      "title": "Conceptual reading example",
+      "code": "import java.io.File;\nimport java.util.Scanner;\n\npublic class Main {\n  public static void main(String[] args) throws Exception {\n    File file = new File(\"data.txt\");\n    Scanner reader = new Scanner(file);\n\n    while (reader.hasNextLine()) {\n      System.out.println(reader.nextLine());\n    }\n  }\n}",
+      "comment": "File represents the file, and Scanner can read the lines from that file."
+    },
+    "steps": [
+      {
+        "id": "16.1",
+        "type": "multiple-choice",
+        "question": "Which class can represent a file in Java?",
+        "options": [
+          "Text",
+          "DocumentJava",
+          "File",
+          "Archive"
+        ],
+        "answer": "File",
+        "hint": "It comes from java.io.File."
+      },
+      {
+        "id": "16.2",
+        "type": "complete-code",
+        "question": "Complete the import: import java.io.____;",
+        "answer": "File",
+        "hint": "This is the class used to represent files."
+      },
+      {
+        "id": "16.3",
+        "type": "multiple-choice",
+        "question": "Which class can also be used to read text from a file?",
+        "options": [
+          "Printer",
+          "WriterOnly",
+          "InputText",
+          "Scanner"
+        ],
+        "answer": "Scanner",
+        "hint": "The same class used to read keyboard input can also read files."
+      },
+      {
+        "id": "16.4",
+        "type": "multiple-choice",
+        "question": "Which method checks if there is still a next line to read?",
+        "options": [
+          "nextFile",
+          "hasNextLine",
+          "readMore",
+          "lineExists"
+        ],
+        "answer": "hasNextLine",
+        "hint": "The name suggests: is there a next line?"
+      },
+      {
+        "id": "16.5",
+        "type": "write-code",
+        "question": "Write one line creating a File called file for \"data.txt\".",
+        "answer": "File file = new File(\"data.txt\");",
+        "hint": "Use File, the variable name, new File, and the file name inside quotes."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "APIs and libraries in Java",
+    "reward": "kitchenShelves",
+    "environment": "kitchen-complete",
+    "summary": "Understand what APIs are and how Java provides ready-made resources.",
+    "explanation": "Javaland has a huge library in the center of the village, full of ready-made tools: calendars, lists, file readers, date classes, and much more. The librarian, Miss API, always says: “You do not need to build everything from scratch if the language already provides a reliable tool.” An API is a set of resources that a program can use. In Java, there are APIs such as java.util, java.io, and java.time. In this level, you will understand how to use ready-made resources, such as LocalDate, to solve problems more practically and professionally.",
+    "example": {
+      "title": "Example with date API",
+      "code": "import java.time.LocalDate;\n\npublic class Main {\n  public static void main(String[] args) {\n    LocalDate today = LocalDate.now();\n    System.out.println(today);\n  }\n}",
+      "comment": "LocalDate is part of the java.time API and allows us to work with dates."
+    },
+    "steps": [
+      {
+        "id": "17.1",
+        "type": "multiple-choice",
+        "question": "What is an API?",
+        "options": [
+          "A syntax error",
+          "A set of resources that a program can use",
+          "A primitive type",
+          "A game image"
+        ],
+        "answer": "A set of resources that a program can use",
+        "hint": "Think about ready-made tools that Java offers."
+      },
+      {
+        "id": "17.2",
+        "type": "multiple-choice",
+        "question": "Which package has classes for working with modern dates?",
+        "options": [
+          "java.image",
+          "java.house",
+          "java.time",
+          "java.button"
+        ],
+        "answer": "java.time",
+        "hint": "time refers to time and dates."
+      },
+      {
+        "id": "17.3",
+        "type": "complete-code",
+        "question": "Complete the import: import java.time._________;",
+        "answer": "LocalDate",
+        "hint": "This is the class used in the example to represent a date."
+      },
+      {
+        "id": "17.4",
+        "type": "multiple-choice",
+        "question": "Which command returns the current date using LocalDate?",
+        "options": [
+          "LocalDate.today",
+          "Date.current()",
+          "new Today()",
+          "LocalDate.now()"
+        ],
+        "answer": "LocalDate.now()",
+        "hint": "The method now means the current moment."
+      },
+      {
+        "id": "17.5",
+        "type": "write-code",
+        "question": "Write one line creating a variable today with the current date.",
+        "answer": "LocalDate today = LocalDate.now();",
+        "hint": "Use LocalDate, the variable name, equals, LocalDate.now, and a semicolon."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Packages, imports, and organization",
+    "reward": "bed",
+    "environment": "bedroom",
+    "summary": "Review imports and learn how packages help organize larger Java projects.",
+    "explanation": "The house is almost complete, but the project has become large. There are house classes, pet classes, furniture classes, tools, lists, and several parts scattered around. Mr. Package, the official organizer of the village, knocks on your door and says: “If everything is mixed together, nobody finds anything!” In Java, packages help group related classes, like neighborhoods inside Javaland. Imports bring classes from other places when we need to use them. In this level, you will review imports and understand how packages keep larger projects organized and easier to maintain.",
+    "example": {
+      "title": "Package and import example",
+      "code": "package javaland.house;\n\nimport java.util.Scanner;\n\npublic class Main {\n  public static void main(String[] args) {\n    Scanner input = new Scanner(System.in);\n    System.out.println(\"Type something:\");\n  }\n}",
+      "comment": "The package line organizes the class inside a group. The import line allows us to use Scanner without writing java.util.Scanner every time."
+    },
+    "steps": [
+      {
+        "id": "18.1",
+        "type": "multiple-choice",
+        "question": "What are packages used for in Java?",
+        "options": [
+          "To change the console color",
+          "To organize classes into groups",
+          "To prevent the use of methods",
+          "To create images"
+        ],
+        "answer": "To organize classes into groups",
+        "hint": "Packages help organize the project."
+      },
+      {
+        "id": "18.2",
+        "type": "multiple-choice",
+        "question": "Which word do we use to import a class?",
+        "options": [
+          "package",
+          "includeJava",
+          "import",
+          "usingClass"
+        ],
+        "answer": "import",
+        "hint": "This word appears before java.util.Scanner."
+      },
+      {
+        "id": "18.3",
+        "type": "complete-code",
+        "question": "Complete: ______ java.util.Scanner;",
+        "answer": "import",
+        "hint": "This is the word used to bring a class from another package."
+      },
+      {
+        "id": "18.4",
+        "type": "multiple-choice",
+        "question": "Which word declares the package of a class?",
+        "options": [
+          "import",
+          "class",
+          "folder",
+          "package"
+        ],
+        "answer": "package",
+        "hint": "It usually appears at the top of the file."
+      },
+      {
+        "id": "18.5",
+        "type": "write-code",
+        "question": "Write one line importing Scanner.",
+        "answer": "import java.util.Scanner;",
+        "hint": "Use import, the path java.util.Scanner, and a semicolon."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Good practices in Java",
+    "reward": "bedroomSideTable",
+    "environment": "bedroom",
+    "summary": "Learn how to write cleaner, more readable, and more organized code.",
+    "explanation": "Now that you know how to build, the villagers start noticing the quality of your work. Miss Good Practices, a demanding but wise neighbor, says: “Good code is not only code that works; it is code someone else can understand later.” In Java, good practices involve clear names, focused methods, organization, useful comments, and care to avoid mess. The village gossip says badly named code can be scarier than a bug on deploy night. In this level, you will learn habits that make your code cleaner, more professional, and easier to evolve.",
+    "example": {
+      "title": "Good practice example",
+      "code": "public class Main {\n  public static double calculateAverage(double grade1, double grade2) {\n    return (grade1 + grade2) / 2;\n  }\n\n  public static void main(String[] args) {\n    double average = calculateAverage(8.0, 9.0);\n    System.out.println(average);\n  }\n}",
+      "comment": "The calculateAverage method has a clear name and performs a specific task."
+    },
+    "steps": [
+      {
+        "id": "19.1",
+        "type": "multiple-choice",
+        "question": "What is a good practice when naming variables?",
+        "options": [
+          "Use only random letters",
+          "Use clear and meaningful names",
+          "Use names that are impossible to understand",
+          "Never use names in English"
+        ],
+        "answer": "Use clear and meaningful names",
+        "hint": "The name should help explain the purpose of the variable."
+      },
+      {
+        "id": "19.2",
+        "type": "multiple-choice",
+        "question": "Which method name is clearer?",
+        "options": [
+          "x",
+          "doIt",
+          "calculateAverage",
+          "thing"
+        ],
+        "answer": "calculateAverage",
+        "hint": "It says exactly what the method does."
+      },
+      {
+        "id": "19.3",
+        "type": "complete-code",
+        "question": "Complete a good variable name to store age: int ______ = 18;",
+        "answer": "age",
+        "hint": "Use a clear name that represents the stored value."
+      },
+      {
+        "id": "19.4",
+        "type": "multiple-choice",
+        "question": "When are comments useful?",
+        "options": [
+          "When they repeat exactly everything the code already shows",
+          "When they help explain something that may not be clear",
+          "When they make the code confusing",
+          "When they replace clear names"
+        ],
+        "answer": "When they help explain something that may not be clear",
+        "hint": "A comment should help, not pollute the code."
+      },
+      {
+        "id": "19.5",
+        "type": "write-code",
+        "question": "Write a double variable declaration called average with value 8.5.",
+        "answer": "double average = 8.5;",
+        "hint": "Use double, a clear name, value, and a semicolon."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Final Javaland review",
+    "reward": "wardrobe",
+    "environment": "final-complete",
+    "summary": "Review the main concepts learned during the game.",
+    "explanation": "Your journey in Javaland is coming to an end. The whole village gathers to see your completed house: Miss Syntax, Mr. Main, Miss Variable, Mr. Loop, Miss String, Mr. Package, and even your chosen pet appear to celebrate. Each part of the house represents a concept you learned: basic structure, variables, operators, conditionals, loops, methods, objects, collections, exceptions, imports, and good practices. Now it is time to review everything and show that you did not only build a house, but also a solid foundation in Java.",
+    "example": {
+      "title": "Example combining concepts",
+      "code": "public class Main {\n  public static void main(String[] args) {\n    String name = \"Javaland\";\n    int points = 10;\n\n    if (points >= 7) {\n      System.out.println(\"Welcome to \" + name);\n    }\n  }\n}",
+      "comment": "This example uses String, int, a conditional, and output with System.out.println."
+    },
+    "steps": [
+      {
+        "id": "20.1",
+        "type": "multiple-choice",
+        "question": "Which method starts the execution of a Java program?",
+        "options": [
+          "start",
+          "begin",
+          "main",
+          "runJava"
+        ],
+        "answer": "main",
+        "hint": "It is the main method of the program."
+      },
+      {
+        "id": "20.2",
+        "type": "multiple-choice",
+        "question": "Which structure do we use to make decisions?",
+        "options": [
+          "for",
+          "class",
+          "import",
+          "if"
+        ],
+        "answer": "if",
+        "hint": "It checks a condition."
+      },
+      {
+        "id": "20.3",
+        "type": "complete-code",
+        "question": "Complete the output command: System.out._______(\"End of Javaland\");",
+        "answer": "println",
+        "hint": "It is used to print a line in the console."
+      },
+      {
+        "id": "20.4",
+        "type": "multiple-choice",
+        "question": "Which keyword creates a new object?",
+        "options": [
+          "object",
+          "new",
+          "class",
+          "make"
+        ],
+        "answer": "new",
+        "hint": "It appears in new ClassName()."
+      },
+      {
+        "id": "20.5",
+        "type": "write-code",
+        "question": "Write one line that prints \"House complete!\" in the console.",
+        "answer": "System.out.println(\"House complete!\");",
+        "hint": "Use System.out.println with the text inside quotes."
+      }
+    ]
+  }
+]

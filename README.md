@@ -1,4 +1,7 @@
-# Javaland — Jogo Educativo de Java
+# 🏡 Javaland — Jogo Educativo de Java
+
+> 🇧🇷 Versão em português  
+> 🇺🇸 English version available below
 
 Javaland é um jogo educativo desenvolvido em **React + Vite** com o objetivo de ensinar conceitos fundamentais de **Java** de forma lúdica, progressiva e visual.
 
@@ -6,9 +9,11 @@ A proposta do projeto é transformar o aprendizado de programação em uma jorna
 
 A cada nível concluído, o jogador desbloqueia uma nova recompensa visual para a casa, como cerca, portinha, flores, sofá, TV, banheiro, cozinha, quarto e pet.
 
+**Stack:** React • Vite • JavaScript • CSS • localStorage
+
 ---
 
-## Objetivo do projeto
+## 🎯 Objetivo do projeto
 
 O objetivo do Javaland é ensinar Java para iniciantes por meio de uma experiência mais interativa e menos abstrata.
 
@@ -39,7 +44,7 @@ O jogador aprende conceitos como:
 
 ---
 
-## História do jogo
+## 📖 História do jogo
 
 O jogador chega em **Javaland**, uma vila antiga e tecnológica onde tudo funciona por comandos bem escritos.
 
@@ -58,7 +63,7 @@ A cada desafio concluído, a casa do jogador ganha uma nova parte.
 
 ---
 
-## Funcionalidades principais
+## ✨ Funcionalidades principais
 
 - Tela inicial com opção de novo jogo.
 - Solicitação do nome do jogador antes do início.
@@ -81,7 +86,7 @@ A cada desafio concluído, a casa do jogador ganha uma nova parte.
 
 ---
 
-## Tecnologias utilizadas
+## 🛠️ Tecnologias utilizadas
 
 - React
 - Vite
@@ -92,33 +97,33 @@ A cada desafio concluído, a casa do jogador ganha uma nova parte.
 
 ---
 
-## Como rodar o projeto localmente
+## 🚀 Como rodar o projeto localmente
 
-### 1. Clone o repositório
+### 1️⃣ Clone o repositório
 
 ```bash
 git clone <URL_DO_REPOSITORIO>
 ```
 
-### 2. Entre na pasta do projeto
+### 2️⃣ Entre na pasta do projeto
 
 ```bash
 cd javaland-game
 ```
 
-### 3. Instale as dependências
+### 3️⃣ Instale as dependências
 
 ```bash
 npm install
 ```
 
-### 4. Rode o projeto
+### 4️⃣ Rode o projeto
 
 ```bash
 npm run dev
 ```
 
-### 5. Abra no navegador
+### 5️⃣ Abra no navegador
 
 O Vite normalmente exibirá um endereço parecido com:
 
@@ -128,7 +133,7 @@ http://localhost:5173
 
 ---
 
-## Scripts disponíveis
+## 📦 Scripts disponíveis
 
 ```json
 {
@@ -157,7 +162,7 @@ Executa a verificação de padrões do código com ESLint.
 
 ---
 
-## Estrutura principal do projeto
+## 🗂️ Estrutura principal do projeto
 
 ```txt
 src/
@@ -217,35 +222,35 @@ src/
 
 ---
 
-## Organização dos níveis
+## 🧩 Organização dos níveis
 
 | Nível | Tema | Recompensa |
 |---:|---|---|
-| 0 | Tutorial de Javaland | Caixa de ferramentas |
-| 1 | Estrutura básica de um programa Java | Cerca |
-| 2 | Variáveis e tipos primitivos | Portinha da cerca |
-| 3 | Entrada, saída e imports | Casinha do pet |
-| 4 | Operadores em Java | Flores |
-| 5 | Condicionais | Escolha do pet |
-| 6 | Laços de repetição | Sofá |
-| 7 | Métodos em Java | Mesinha de centro |
-| 8 | Arrays e listas | Estante de livros |
-| 9 | Classes e objetos | TV |
-| 10 | Encapsulamento | Privada |
-| 11 | Construtores | Pia do banheiro |
-| 12 | Herança e polimorfismo | Chuveiro |
-| 13 | Strings em Java | Mesa |
-| 14 | ArrayList e coleções | Pia da cozinha |
-| 15 | Tratamento de exceções | Fogão |
-| 16 | Arquivos em Java | Geladeira |
-| 17 | APIs e bibliotecas em Java | Estantes da cozinha |
-| 18 | Pacotes, imports e organização | Cama |
-| 19 | Boas práticas em Java | Mesinha lateral |
-| 20 | Revisão final de Javaland | Armário |
+| 0 | Tutorial de Javaland | 🧰 Caixa de ferramentas |
+| 1 | Estrutura básica de um programa Java | 🪵 Cerca |
+| 2 | Variáveis e tipos primitivos | 🚪 Portinha da cerca |
+| 3 | Entrada, saída e imports | 🐾 Casinha do pet |
+| 4 | Operadores em Java | 🌸 Flores |
+| 5 | Condicionais | 🐶🐱 Escolha do pet |
+| 6 | Laços de repetição | 🛋️ Sofá |
+| 7 | Métodos em Java | 🪑 Mesinha de centro |
+| 8 | Arrays e listas | 📚 Estante de livros |
+| 9 | Classes e objetos | 📺 TV |
+| 10 | Encapsulamento | 🚽 Privada |
+| 11 | Construtores | 🚰 Pia do banheiro |
+| 12 | Herança e polimorfismo | 🚿 Chuveiro |
+| 13 | Strings em Java | 🍽️ Mesa |
+| 14 | ArrayList e coleções | 🧼 Pia da cozinha |
+| 15 | Tratamento de exceções | 🔥 Fogão |
+| 16 | Arquivos em Java | 🧊 Geladeira |
+| 17 | APIs e bibliotecas em Java | 🧺 Estantes da cozinha |
+| 18 | Pacotes, imports e organização | 🛏️ Cama |
+| 19 | Boas práticas em Java | 🪴 Mesinha lateral |
+| 20 | Revisão final de Javaland | 🚪 Armário |
 
 ---
 
-## Sistema de desafios
+## 🎮 Sistema de desafios
 
 Cada nível possui três partes principais:
 
@@ -269,7 +274,7 @@ true-false
 
 ---
 
-## Validação das respostas
+## ✅ Validação das respostas
 
 O arquivo responsável pela validação é:
 
@@ -292,7 +297,7 @@ Isso evita que o jogador erre apenas por formatação diferente.
 
 ---
 
-## Sistema de progresso
+## 💾 Sistema de progresso
 
 O progresso é salvo no navegador usando `localStorage`.
 
@@ -324,7 +329,7 @@ Isso significa que:
 
 ---
 
-## Sistema de idioma
+## 🌎 Sistema de idioma
 
 O Javaland possui suporte para português e inglês.
 
@@ -367,7 +372,7 @@ javaland-language
 
 ---
 
-## Sistema de áudio
+## 🔊 Sistema de áudio
 
 O áudio é controlado pelo arquivo:
 
@@ -411,11 +416,11 @@ src/assets/sounds/
 
 ---
 
-## Assets visuais
+## 🎨 Assets visuais
 
 As imagens são separadas em dois grupos principais:
 
-### Recompensas individuais
+### 🎁 Recompensas individuais
 
 ```txt
 src/assets/house/rewards/
@@ -433,7 +438,7 @@ reward-bed.png
 
 Essas imagens aparecem na tela de recompensa logo após concluir um nível.
 
-### Cenas completas da construção
+### 🏗️ Cenas completas da construção
 
 ```txt
 src/assets/house/scenes/
@@ -462,13 +467,13 @@ cat
 
 ---
 
-## Deploy
+## ☁️ Deploy
 
 Para o MVP, a opção recomendada é a **Vercel**.
 
 O projeto é um front-end React com Vite, sem backend e sem banco de dados, então o deploy é simples.
 
-### Antes do deploy
+### 🧪 Antes do deploy
 
 Rode:
 
@@ -478,7 +483,7 @@ npm run build
 
 Se o build funcionar sem erro, o projeto está pronto para publicar.
 
-### Plataformas possíveis
+### 🌐 Plataformas possíveis
 
 - Vercel
 - Netlify
@@ -488,7 +493,7 @@ Para este MVP, Vercel é uma boa opção por ser simples, rápida e integrada ao
 
 ---
 
-## Limitações do MVP
+## ⚠️ Limitações do MVP
 
 Este projeto ainda não possui:
 
@@ -504,7 +509,7 @@ A validação atual compara respostas esperadas, o que é suficiente para um MVP
 
 ---
 
-## Melhorias futuras
+## 🔮 Melhorias futuras
 
 Algumas ideias para evolução:
 
@@ -525,7 +530,7 @@ Algumas ideias para evolução:
 
 ---
 
-## Boas práticas usadas no projeto
+## 🧼 Boas práticas usadas no projeto
 
 - Separação por componentes.
 - Separação por páginas.
@@ -539,7 +544,7 @@ Algumas ideias para evolução:
 
 ---
 
-## Status do projeto
+## 📌 Status do projeto
 
 Este projeto está em versão MVP.
 
@@ -557,13 +562,13 @@ As próximas etapas devem focar em refinamento, testes, deploy e coleta de feedb
 
 ---
 
-## Autora
+## 👩‍💻 Autora
 
 Projeto desenvolvido por **Leda Trindade** como um MVP educativo para ensino de Java de forma lúdica, visual e progressiva.
 
 ---
 
-## Licença
+## 📄 Licença
 
 Este projeto é de uso educacional e autoral.
 
@@ -571,7 +576,10 @@ Antes de publicar, verifique as licenças de todos os assets externos utilizados
 
 ---
 
-# Javaland — Java Educational Game
+# 🏡 Javaland — Java Educational Game
+
+> 🇺🇸 English version  
+> 🇧🇷 Versão em português disponível acima
 
 Javaland is an educational game built with **React + Vite** that teaches fundamental **Java** concepts in a playful, progressive, and visual way.
 
@@ -579,9 +587,11 @@ The project turns programming learning into a journey: the player moves to **Jav
 
 After completing each level, the player unlocks a new visual reward for the house, such as a fence, gate, flowers, sofa, TV, bathroom, kitchen, bedroom, and pet.
 
+**Stack:** React • Vite • JavaScript • CSS • localStorage
+
 ---
 
-## Table of Contents
+## 📚 Table of Contents
 
 - [Project goal](#project-goal)
 - [Game story](#game-story)
@@ -601,7 +611,7 @@ After completing each level, the player unlocks a new visual reward for the hous
 
 ---
 
-## Project goal
+## 🎯 Project goal
 
 The goal of Javaland is to teach Java to beginners through a more interactive and less abstract experience.
 
@@ -632,7 +642,7 @@ The player learns concepts such as:
 
 ---
 
-## Game story
+## 📖 Game story
 
 The player arrives in **Javaland**, an ancient and technological village where everything works through well-written commands.
 
@@ -651,7 +661,7 @@ Each completed challenge adds a new part to the player’s house.
 
 ---
 
-## Main features
+## ✨ Main features
 
 - Start screen with a new game option.
 - Player name input before the game starts.
@@ -674,7 +684,7 @@ Each completed challenge adds a new part to the player’s house.
 
 ---
 
-## Technologies used
+## 🛠️ Technologies used
 
 - React
 - Vite
@@ -685,33 +695,33 @@ Each completed challenge adds a new part to the player’s house.
 
 ---
 
-## How to run locally
+## 🚀 How to run locally
 
-### 1. Clone the repository
+### 1️⃣ Clone the repository
 
 ```bash
 git clone <REPOSITORY_URL>
 ```
 
-### 2. Enter the project folder
+### 2️⃣ Enter the project folder
 
 ```bash
 cd javaland-game
 ```
 
-### 3. Install dependencies
+### 3️⃣ Install dependencies
 
 ```bash
 npm install
 ```
 
-### 4. Run the project
+### 4️⃣ Run the project
 
 ```bash
 npm run dev
 ```
 
-### 5. Open it in the browser
+### 5️⃣ Open it in the browser
 
 Vite usually displays an address similar to:
 
@@ -721,7 +731,7 @@ http://localhost:5173
 
 ---
 
-## Available scripts
+## 📦 Available scripts
 
 ```json
 {
@@ -750,7 +760,7 @@ Runs ESLint checks.
 
 ---
 
-## Project structure
+## 🗂️ Project structure
 
 ```txt
 src/
@@ -810,35 +820,35 @@ src/
 
 ---
 
-## Level organization
+## 🧩 Level organization
 
 | Level | Topic | Reward |
 |---:|---|---|
-| 0 | Javaland Tutorial | Toolbox |
-| 1 | Basic structure of a Java program | Fence |
-| 2 | Variables and primitive types | Fence gate |
-| 3 | Input, output, and imports | Pet house |
-| 4 | Java operators | Flowers |
-| 5 | Conditionals | Pet choice |
-| 6 | Loops | Sofa |
-| 7 | Methods in Java | Coffee table |
-| 8 | Arrays and lists | Bookshelf |
-| 9 | Classes and objects | TV |
-| 10 | Encapsulation | Toilet |
-| 11 | Constructors | Bathroom sink |
-| 12 | Inheritance and polymorphism | Shower |
-| 13 | Strings in Java | Table |
-| 14 | ArrayList and collections | Kitchen sink |
-| 15 | Exception handling | Stove |
-| 16 | Files in Java | Fridge |
-| 17 | APIs and libraries in Java | Kitchen shelves |
-| 18 | Packages, imports, and organization | Bed |
-| 19 | Good practices in Java | Side table |
-| 20 | Final Javaland review | Wardrobe |
+| 0 | Javaland Tutorial | 🧰 Toolbox |
+| 1 | Basic structure of a Java program | 🪵 Fence |
+| 2 | Variables and primitive types | 🚪 Fence gate |
+| 3 | Input, output, and imports | 🐾 Pet house |
+| 4 | Java operators | 🌸 Flowers |
+| 5 | Conditionals | 🐶🐱 Pet choice |
+| 6 | Loops | 🛋️ Sofa |
+| 7 | Methods in Java | 🪑 Coffee table |
+| 8 | Arrays and lists | 📚 Bookshelf |
+| 9 | Classes and objects | 📺 TV |
+| 10 | Encapsulation | 🚽 Toilet |
+| 11 | Constructors | 🚰 Bathroom sink |
+| 12 | Inheritance and polymorphism | 🚿 Shower |
+| 13 | Strings in Java | 🍽️ Table |
+| 14 | ArrayList and collections | 🧼 Kitchen sink |
+| 15 | Exception handling | 🔥 Stove |
+| 16 | Files in Java | 🧊 Fridge |
+| 17 | APIs and libraries in Java | 🧺 Kitchen shelves |
+| 18 | Packages, imports, and organization | 🛏️ Bed |
+| 19 | Good practices in Java | 🪴 Side table |
+| 20 | Final Javaland review | 🚪 Wardrobe |
 
 ---
 
-## Challenge system
+## 🎮 Challenge system
 
 Each level has three main parts:
 
@@ -862,7 +872,7 @@ true-false
 
 ---
 
-## Answer validation
+## ✅ Answer validation
 
 The file responsible for validation is:
 
@@ -885,7 +895,7 @@ This avoids marking an answer wrong only because the formatting is slightly diff
 
 ---
 
-## Progress system
+## 💾 Progress system
 
 Progress is saved in the browser using `localStorage`.
 
@@ -917,7 +927,7 @@ This means:
 
 ---
 
-## Language system
+## 🌎 Language system
 
 Javaland supports Portuguese and English.
 
@@ -960,7 +970,7 @@ javaland-language
 
 ---
 
-## Audio system
+## 🔊 Audio system
 
 Audio is controlled by:
 
@@ -1004,11 +1014,11 @@ src/assets/sounds/
 
 ---
 
-## Visual assets
+## 🎨 Visual assets
 
 Images are separated into two main groups:
 
-### Individual rewards
+### 🎁 Individual rewards
 
 ```txt
 src/assets/house/rewards/
@@ -1016,7 +1026,7 @@ src/assets/house/rewards/
 
 These images appear on the reward screen after completing a level.
 
-### Full construction scenes
+### 🏗️ Full construction scenes
 
 ```txt
 src/assets/house/scenes/
@@ -1033,13 +1043,13 @@ cat
 
 ---
 
-## Deployment
+## ☁️ Deployment
 
 For the MVP, **Vercel** is the recommended option.
 
 The project is a React front-end with Vite, without backend or database, so deployment is simple.
 
-### Before deploying
+### 🧪 Before deploying
 
 Run:
 
@@ -1049,7 +1059,7 @@ npm run build
 
 If the build completes without errors, the project is ready to publish.
 
-### Possible platforms
+### 🌐 Possible platforms
 
 - Vercel
 - Netlify
@@ -1059,7 +1069,7 @@ For this MVP, Vercel is a good option because it is simple, fast, and integrated
 
 ---
 
-## MVP limitations
+## ⚠️ MVP limitations
 
 This project does not yet include:
 
@@ -1075,7 +1085,7 @@ The current validation compares expected answers, which is enough for an initial
 
 ---
 
-## Future improvements
+## 🔮 Future improvements
 
 - Create a backend to save progress by user.
 - Add login.
@@ -1094,7 +1104,7 @@ The current validation compares expected answers, which is enough for an initial
 
 ---
 
-## Good practices used in the project
+## 🧼 Good practices used in the project
 
 - Component-based structure.
 - Page-based structure.
@@ -1108,7 +1118,7 @@ The current validation compares expected answers, which is enough for an initial
 
 ---
 
-## Project status
+## 📌 Project status
 
 This project is currently an MVP.
 
@@ -1126,15 +1136,15 @@ The next steps should focus on refinement, testing, deployment, and user feedbac
 
 ---
 
-## Author
+## 👩‍💻 Author
 
 Project developed by **Leda Trindade** as an educational MVP for teaching Java in a playful, visual, and progressive way.
 
 ---
 
-## License
+## 📄 License
 
 This project is educational and authorial.
 
 Before publishing, check the licenses of all external assets used, especially sounds, music, and images. Prefer materials with CC0, public domain, or clearly allowed free-use licenses.
-# Javaland-game
+
